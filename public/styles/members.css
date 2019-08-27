@@ -1,0 +1,403 @@
+html body{
+    background-color: #f2f3f6;
+    font-family: SourceHanSansCN-Regular;
+}
+.top1{
+    background-color: #ffffff;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+.top1 img{
+    width: 92px;
+    height: 92px;
+    background-color: #fef6be;
+    border-radius: 46px;
+    margin: 38px 0 7px 0;
+}
+.top1 p{
+    font-family: SourceHanSansCN-Normal;
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: #393d47;
+    text-align: center;
+}
+.nav.flex-column{
+    margin-top:10px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.nav .nav-item{
+    border-bottom: 1px solid #f2f3f6;
+    position: relative;
+}
+.nav .nav-item:last-of-type{
+    border-bottom: 0;
+}
+.nav .nav-item span{
+    width: 4px;
+    height: 32px;
+    background-color: #ffa54b;
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+}
+.nav .nav-item a{
+    padding:18px 29px;
+    margin:0;
+    color: #393d47;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+.nav .nav-item:hover a{
+    color: #fff;
+}
+.nav .nav-item:hover{
+    background-color: #ffa54b;
+}
+
+.row.rightTop{
+    width: 100%;
+    background-color: #ffffff;
+    margin:0 0 10px 0;
+}
+.col.col-9 {
+    padding:0;
+}
+.row.rightTop p{
+    font-family: SourceHanSansCN-Normal;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin:18px 27px;
+    color: #393d47;
+}
+.row.rightTop p:nth-of-type(2){
+    color: #ffa54b;
+    margin:18px 0 18px 580px;
+}
+.rightBody{
+    margin-left:-10px;
+}
+.rightBody div{
+    background-color: #ffffff;
+    text-align: center;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+.rightBody div img{
+    width: 140px;
+    height: 140px;
+    background-color: #f2f3f6;
+    border-radius: 5px;
+    margin:13px 30px 10px 30px;
+}
+.rightBody div p{
+    font-family: SourceHanSansCN-Normal;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #393d47;
+    margin-bottom:7px;
+}
+.rightBodys{
+    margin: 0;
+    padding-top:29px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.rightBodys .col-2{
+    text-align: right;
+    font-size: 14px;
+    color: #050505;
+}
+.rightBodys .col-2 label{
+    margin:10px 0 40px 0;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #050505;
+}
+.rightBodys .col-2 label:nth-of-type(2){
+    margin-bottom: 83px;
+}
+.rightBodys .col-9 input{
+    width: 262px;
+    height: 41px;
+    border-radius: 2px;
+    border: solid 1px #ced4da;
+    padding-left:18px;
+    margin-bottom: 20px;
+}
+.rightBodys .col-9 #mobile{
+    width: 144px;
+    margin-right: 9px;
+}
+.rightBodys .BodyH{
+    height: 60px;
+}
+.rightBodys .col-9 button{
+    width: 109px;
+    height: 40px;
+    border-radius: 2px;
+    border: solid 1px #ced4da;
+    font-size: 12px;
+    letter-spacing: 0;
+    background: #ffffff;
+    color: #1e2558;
+    cursor: pointer;
+}
+.rightBodys .col-9 .SubmitS{
+    width: 89px;
+    height: 41px;
+    background-color: #ffa54b;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #ffffff;
+    cursor: pointer;
+    margin-bottom: 76px;
+}
+.rightBodys .col-9  .chunk-upload{
+    margin: 0;
+    margin-bottom: 20px;
+}
+.rightBodyPassword > div{
+    margin-bottom: 20px;
+}
+.rightBodyPassword label{
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #050505;
+    text-align: right;
+    width: 112px;
+    margin-right: 17px;
+}
+.rightBodyPassword input{
+    width: 262px;
+    height: 41px;
+    border-radius: 2px;
+    border: solid 1px #ced4da;
+    padding-left: 18px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #050505;
+}
+.rightBodyPassword button{
+    width: 89px;
+    height: 41px;
+    background-color: #ffa54b;
+    border: 0;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    margin-left: 133px;
+    margin-bottom: 32px;
+}
+.rightZD{
+    margin: 10px 15px;
+    padding-top:29px;
+    width: 100%;
+    background-color: #ffffff;
+}
+h3.rightZD{
+    padding: 0;
+    background-color: #ffffff;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #888888;
+    padding: 16px 25px;
+}
+.rightZD .inlines{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.rightZD form>div>label{
+    width: 110px;
+    text-align: right;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #050505;
+    margin-right: 18px;
+}
+.rightZD .inlines input{
+    width: 262px;
+    height: 41px;
+    border-radius: 2px;
+    border: solid 1px #ced4da;
+    font-size: 16px;
+    letter-spacing: 0;
+    padding-left: 18px;
+    color: #050505;
+}
+.rightZD .upload{
+    margin: 0;
+}
+.rightZD button{
+    width: 89px;
+    height: 41px;
+    background-color: #ffa54b;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 0;
+    color: #ffffff;
+    border: 0;
+    margin: 19px 0 31px 132px;
+}
+.rightZDA{
+    width: 100%;
+    padding: 0 17px 0 10px;
+}
+.rightZDA .card{
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 200px;
+    background-color: #ffffff;
+    border-radius:0;
+}
+.rightZDA .card h4{
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #050505;
+    text-align: center;
+    margin: 74px 0 52px;
+}
+.rightZDA .card p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.rightZDA .card a{
+    width: 80px;
+    background-color: #ff0410;
+    border-radius: 2px;
+    font-size: 14px;
+    letter-spacing: 0;
+    padding: 1px;
+    display: inline-block;
+    color: #ffffff;
+}
+.nav.nav-pills.flex-column.flex-sm-row{
+    margin: 0;
+}
+.nav.nav-pills.flex-column.flex-sm-row a{
+    margin: 0 10px;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    color: #393d47;
+    padding: 24px 10px 20px 10px;
+    position: relative;
+}
+.nav.nav-pills.flex-column.flex-sm-row a:hover{
+    color: #FFFFFF;
+    background-color: #ffa54b;
+}
+.nav.nav-pills.flex-column.flex-sm-row a span{
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background: #ffa54b;
+    position: absolute;
+    bottom: 0;
+    left: 18px;
+}
+.card{
+    border: 0;
+}
+.nav.nav-pills.flex-column.flex-sm-row form{
+    position: absolute;
+    right: 0;
+}
+.nav.nav-pills.flex-column.flex-sm-row input{
+    width: auto;
+    height: 41px;
+    border-radius: 2px;
+    border: solid 1px #ced4da;
+    font-size: 14px;
+    letter-spacing: 0;
+    color: #050505;
+    padding-left: 18px;
+    margin-top: 12px;
+}
+.nav.nav-pills.flex-column.flex-sm-row button{
+    width: 89px;
+    height: 41px;
+    background-color: #ffa54b;
+    border-radius: 2px;
+    font-size: 16px;
+    letter-spacing: 0;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav.nav-pills.flex-column.flex-sm-row button:hover,.rightBodys .col-9 .SubmitS:hover,.rightBodyPassword button:hover{
+    background-color: #161d4a;
+}
+.footer{
+    position: fixed;
+}
+@media only screen and (min-width: 991px){
+    
+}
+@media only screen and (max-width: 991px){
+    .register{
+        width: 90%;
+        margin-top: 8rem;
+    }
+    .login.register .col.col-3,.login.register .col-9{
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        margin-bottom: 10px;
+    }
+    .nav.nav-pills.flex-column.flex-sm-row form{
+        display: block;
+        width: 100%;
+        position: inherit;
+        margin: 0 0 20px 20px;
+    }
+    .rightZDA .card{
+        width: 47%;
+    }
+    .row.rightTop p:nth-of-type(2){
+        margin: auto;
+    }
+    .rightBody div{
+        width: 45%;
+    }
+    .rightBody div img{
+        margin: 13px .8rem 10px .8rem;
+        width: 80%;
+        height: auto;
+    }
+    .rightBodys .col-9 input{
+        width: 100%;
+    }
+    .rightBodys .col-9 input#yz{
+        margin-top: 20px;
+    }
+    .rightBodys .col-2{
+        padding: 0;
+        flex: 0 0 24%;
+        max-width: 24%;
+    }
+    .rightBodys .col-2 label[for=mobile] {
+        margin: 10px 0 7rem 0;
+    }
+    .rightBodys .col-9 #mobile {
+        width: 100%;
+    }
+    .rightBodyPassword input{
+        width: 50%;
+    }
+    .login.register .row.rightBodys .col.col-9{
+        max-width: 75%;
+        flex: 0 0 75%;
+    }
+    .rightZD .inlines input{
+        width: 11rem;
+    }
+}

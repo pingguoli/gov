@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Header
+4. Menu
+5. Home
+6. News
+7. Results
+8. Upcoming & Latest
+9. Milestones
+10. Player of the month
+11. News
+12. CTA
+13. Footer
+
+
+******************************/
+
+/***********
+1. Fonts
+***********/
+
+@import url('https://fonts.googleapis.com/css?family=Bevan|Roboto:300,400,500,700,900');
+
+/*********************************
+2. Body and some general stuff
+*********************************/
+/*login*/
+
+.login{width: 420px; margin: auto; margin-top:320px; color: black; font-family: "微软雅黑";}
+.login h1{ font-size: 25px; color: #1e2558;font-weight: bold; text-align: center; margin-bottom: 40px;}
+.login .single{ margin-bottom: 20px;width: 600px;}
+.login .single input[type=text],.login .single input[type=password]{ text-indent: 10px;}
+.login .single span:first-child{ display: inline-block; font-size: 14px; width: 75px; }
+.login .single input{ width: 262px; height: 41px; border: solid 1px #d5dadf;}
+.login .single .ts{ color: #ff0410; font-size: 14px; margin-left: 18px;}
+.login .forget{ margin-left: 77px; font-size: 14px; color: #016fe4; margin-top: -10px;}
+.login .login-submit{ margin-left: 77px; margin-top: 10px;}
+.login .login-submit input{ width: 90px; height: 40px; background-color: #ffa54b; border: none; font-size: 14px; color: white;}
+.login .login-submit a{ color: #016fe4; margin-left: 15px; font-size: 14px;}
+/*register*/
+.register{width: 1079px; margin: auto; margin-top:250px;margin-bottom: 90px; color: black; font-family: "微软雅黑";}
+.register1-form{ width: 364px; margin: auto; margin-top: 63px;}
+.register1-form span:first-child{ width: 80px; text-align: right; margin-right: 20px;}
+.register1 .telephone input{ width: 142px; vertical-align: middle;}
+.register1 .telephone .send{ cursor: pointer; display: inline-block;width: 110px; height: 41px; line-height: 41px; text-align: center; font-size: 12px; color: #1e2558; font-weight: bold; border: solid 1px #d5dadf; vertical-align: middle; margin-left: 10px;}
+.register1 .login-submit{ margin-left: 95px;}
+.is-agreen label span{ display: inline-block; width: 17px !important; height: 16px; border: solid 1px #d5dadf; border-radius:2px; margin-right: 8px !important; vertical-align: middle;}
+.is-agreen label span.checked{ background: url(../images/checked.jpg) no-repeat center center;}
+label input[type=checkbox]:checked+span,label input[type=radio]:checked+span{
+    background: url(../images/checked.jpg) no-repeat center center;
+}
+label input[type=checkbox],label input[type=radio]{
+    display:none;
+}
+label input[type=checkbox]+span{
+}
+.red{color:red; margin-left: 10px;}
+.register1 .is-agreen{ margin-left: 95px;}
+.is-agreen2{ margin-top: 17px !important; margin-bottom: 12px !important;}
+.is-agreen2 label:nth-child(3){ margin-left: 20px;}
+.is-agreen2 label span{ display: inline-block; width: 17px !important; height: 16px; border: solid 1px #d5dadf; border-radius:2px; margin-right: 8px !important; vertical-align: middle;}
+.is-agreen2 label span.checked{ background: url(../images/checked.jpg) no-repeat center center;}
+.register2{ margin-bottom: 50px;}
+.register2 .is-agreen2{ margin-left: 0; color: black;}
+.country select{width: 262px; height: 41px;  border: solid 1px #d5dadf; margin-left: -3px;}
+.login .login-submit input.prev{ background-color: #0075f2; margin-left: 20px; margin-right: 10px;}
+
+.upload{ display: inline-block; width: 160px; vertical-align: top; margin-top: -5px; border: solid 1px #ced4da; text-align: center; padding-bottom: 6px;}
+.upload img{ width: 150px;}
+.file-box{ display: block; width: 80px; height: 30px; line-height: 30px; background-color: #e2e2e2; text-align: center; margin: 2px auto;}
+.file-input{ display: none;}
+.register3 .single span:first-child{ width: 85px;}
+.register3 .login-submit input.prev{ margin-left: 32px;}
+
+.is-agreen3{ margin-top: 17px !important; margin-bottom: 12px !important;}
+.is-agreen3 label:nth-child(3),.is-agreen3 label:nth-child(4){ margin-left: 20px;}
+.is-agreen3 label span{ display: inline-block; width: 17px !important; height: 16px; border: solid 1px #d5dadf; border-radius:2px; margin-right: 8px !important; vertical-align: middle;}
+.is-agreen3 label span.checked{ background: url(../images/checked.jpg) no-repeat center center;}
+.register3{ margin-bottom: 50px;}
+.register3 .is-agreen3{ margin-left: 0; color: black;}
+
+.register4-form{ width: 372px;}
+.register4 .upload{ width: 236px !important; padding-bottom: 0 !important;}
+.register4 .upload img{ width: 176px !important; padding: 12px 0;}
+.register4 .single input{ margin-left: 3px;}
+.register4 .login-submit .pay{ background-color: #0075f2; margin-left: 32px; width: 262px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
